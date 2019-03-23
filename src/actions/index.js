@@ -31,10 +31,10 @@ export function addTodo(text) {
   }
 }
 
-export function delTodo(text) {
+export function delTodo(index) {
   return {
     type: DEL_TODO,
-    text
+    index
   }
 }
 
