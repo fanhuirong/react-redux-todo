@@ -8,7 +8,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const store = createStore(rootReducer) // 创建store
-console.log(store.getState()) // 打印初始状态
+// console.log(store.getState()) // 打印初始状态
 
 ReactDOM.render(
   <Provider store={store}>

@@ -46,6 +46,9 @@ export function toggleTodo(index) { // 将任务标注为已完成
 }
 
 export function setVisibilityFilter(filter) {
-  return { type: SET_VISIBILITY_FILTER, filter }
+  return { 
+    type: SET_VISIBILITY_FILTER, 
+    filter 
+  }
 }
 
